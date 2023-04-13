@@ -1,20 +1,28 @@
+@use './variables' as *;
+/* GOOGLE GONT */
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* BOOTSTRAP IMPORT */
 @import "bootstrap/scss/functions";
 
 // variables override
-$primary: #0082F9;
+$primary: $fg-primary;
 
 @import "bootstrap/scss/variables";
 
 // adding custom colors
 $custom-colors: (
-  "fg-body": #1C1C1C,
-  "fg-text": #505050,
-  'fg-footer': #0E0E0E,
+  "fg-body": $fg-body,
+  "fg-text": $fg-text,
+  'fg-footer': $fg-footer,
 );
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/root";
 @import "bootstrap/scss/bootstrap";
+
+/* BOOTSTRAP IMPORT */

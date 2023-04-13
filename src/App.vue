@@ -1,19 +1,18 @@
 <template>
-  <div class="container-fluid">
     <AppHeader />
-  </div>
-  
+    <AppMain />
 </template>
 
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
   export default {
-    components: { 
-      AppHeader,
-       
-    }
+    components: {
+    AppHeader,
+    AppMain
 }
-</script>
+}
+</script> 
 
 <style lang="scss" scoped>
 
