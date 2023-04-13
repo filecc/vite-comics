@@ -84,5 +84,132 @@ const footerImg = [
     }
 ]
 
+const footerLinks = [
+    {
+        id: 'foo-link-1',
+        title: 'dc comics',
+        links: [
+            {
+                text: 'characters',
+                link: '#'
+            },
+            {
+                text: 'comics',
+                link: '#'
+            },
+            {
+                text: 'movies',
+                link: '#'
+            },
+            {
+                text: 'tv',
+                link: '#'
+            },
+            {
+                text: 'games',
+                link: '#'
+            },
+            {
+                text: 'videos',
+                link: '#'
+            },
+            {
+                text: 'news',
+                link: '#'
+            },
+        ]
+    },
+    {
+        id: 'foo-link-2',
+        title: 'shop',
+        links: [
+            {
+                text: 'Shop DC',
+                link: '#'
+            },
+            {
+                text: 'Shop DC Collectibles',
+                link: '#'
+            }
+        ]
+    },
+    {
+        id: 'foo-link-3',
+        title: 'dc',
+        links: [
+            {
+                text: 'terms of use',
+                link: '#'
+            },
+            {
+                text: 'privacy poolicy (new)',
+                link: '#'
+            },
+            {
+                text: 'ad choices',
+                link: '#'
+            },
+            {
+                text: 'advertising',
+                link: '#'
+            },
+            {
+                text: 'jobs',
+                link: '#'
+            },
+            {
+                text: 'subscriptions',
+                link: '#'
+            },
+            {
+                text: 'talent workshops',
+                link: '#'
+            },
+            {
+                text: 'CPSC Certificates',
+                link: '#'
+            },
+            {
+                text: 'ratings',
+                link: '#'
+            },
+            {
+                text: 'Show help',
+                link: '#'
+            },
+            {
+                text: 'contact us',
+                link: '#'
+            },
+        ]
+    },
+    {
+        id: 'foo-link-4',
+        title: 'sites',
+        links: [
+            {
+                text: 'DC',
+                link: '#'
+            },
+            {
+                text: 'MAD Magazine',
+                link: '#'
+            },
+            {
+                text: 'DC Kids',
+                link: '#'
+            },
+            {
+                text: 'DC Universe',
+                link: '#'
+            },
+            {
+                text: 'DC Power Visa',
+                link: '#'
+            }
+        ]
+    },
+]
+
 export default headerLinks
-export {footerImg}
+export {footerImg, footerLinks}

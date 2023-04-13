@@ -1,5 +1,6 @@
 <template>
-     <div class="container">
+     <div class="bg-primary">
+        <div class="container py-4">
            <div class="row justify-content-center gap-2">
             <div v-for="image in images" class="col d-flex justify-content-center align-items-center gap-1" :key="image.id">
                 <div class="p-1">
@@ -9,6 +10,7 @@
             </div>
            </div>
         </div>
+    </div>
 </template>
 
 <script>
