@@ -5,7 +5,7 @@
         </div>
         <div class="col-10 p-2 d-flex justify-content-end h-100">
             <ul class="d-flex justify-content-center gap-3 list-unstyled flex-wrap m-0 p-0 h-100">
-                <li class="text-uppercase" v-for="link in links" :key="link.id">
+                <li class="text-uppercase text-fg-text" v-for="link in links" :key="link.id">
                     {{ link.text }}
                 </li>
             </ul>
@@ -25,6 +25,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    * {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+    }
     img{
         max-width: 50px;
         margin: 0 auto;

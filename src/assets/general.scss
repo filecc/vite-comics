@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import "bootstrap/scss/functions";
 
 // variables override
@@ -8,7 +9,7 @@ $primary: #0082F9;
 // adding custom colors
 $custom-colors: (
   "fg-body": #1C1C1C,
-  "fg-text": #303030,
+  "fg-text": #505050,
   'fg-footer': #0E0E0E,
 );
 // Merge the maps
