@@ -5,6 +5,7 @@ import FooterTop from './FooterTop.vue';
     <footer>
         <FooterTop />
         <FooterMiddle />
+        <FooterBottom />
     </footer>
 </template>
 
@@ -12,11 +13,13 @@ import FooterTop from './FooterTop.vue';
 import { footerImg } from '../data/data';
 import FooterTop from './FooterTop.vue';
 import FooterMiddle from './FooterMiddle.vue'
+import FooterBottom from './FooterBottom.vue';
     export default {
         components: {
-            FooterTop,
-            FooterMiddle
-        },
+    FooterTop,
+    FooterMiddle,
+    FooterBottom
+},
         data() {
             return {
                 images: footerImg,

@@ -1,7 +1,7 @@
 <template>
     <div class="py-4 bg overflow-hidden">
         <div class="container">
-            <div class="row">
+            <div class="row position-relative">
                 <div class="col">
                 <h2>{{ links[0].title}}</h2>
                 <ul class="list-unstyled">
@@ -24,7 +24,7 @@
                     <li :key="link.text" v-for="link in links[3].links">{{ link.text }}</li>
                 </ul>
             </div>
-            <div class="col-8 position-relative">
+            <div class="col">
                 <img class="img-fluid logo-bg" src="/img/dc-logo-bg.png" alt="">
             </div>
             </div>
@@ -68,7 +68,7 @@ ul, .col{
     max-width: fit-content;
 }
 .logo-bg{
-    max-width: 50%;
+    max-width: 400px;
     position: absolute;
     right: 0;
     top: -50%;
