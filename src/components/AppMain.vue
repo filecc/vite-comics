@@ -1,6 +1,8 @@
 <template>
     <main>
-        <p>Content goes here</p>
+        <div class="container">
+            <p>Content goes here</p>
+        </div>
     </main>
 </template>
 
@@ -14,7 +16,7 @@ export default {
 @use '../scss/variables' as *;
 
 main {
-    
+    // to remove
     min-height: 10rem;
     width: 100%;
     background-color: black;

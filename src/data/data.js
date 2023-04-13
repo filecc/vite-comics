@@ -50,4 +50,39 @@ const headerLinks = [
             active: false
         }
     ]
+
+const footerImg = [
+    {
+        id: 'img-1',
+        src: 'buy-comics-digital-comics.png',
+        alt: 'buy-comics-digital-comics',
+        description: 'digital comics'
+    },
+    {
+        id: 'img-2',
+        src: 'buy-comics-merchandise.png',
+        alt: 'buy-comics-merchandise',
+        description: 'dc merchandise'
+    },
+    {
+        id: 'img-4',
+        src: 'buy-comics-subscriptions.png',
+        alt: 'buy-comics-shop-locator',
+        description: 'subscription'
+    },
+    {
+        id: 'img-3',
+        src: 'buy-comics-shop-locator.png',
+        alt: 'buy-comics-shop-locator',
+        description: 'comic shop locator'
+    },
+    {
+        id: 'img-5',
+        src: 'buy-dc-power-visa.svg',
+        alt: 'buy-dc-power-visa',
+        description: 'dc power visa'
+    }
+]
+
 export default headerLinks
+export {footerImg}
