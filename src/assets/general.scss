@@ -1,0 +1,19 @@
+@import "bootstrap/scss/functions";
+
+// variables override
+$primary: #0082F9;
+
+@import "bootstrap/scss/variables";
+
+// adding custom colors
+$custom-colors: (
+  "fg-body": #1C1C1C,
+  "fg-text": #303030,
+  'fg-footer': #0E0E0E,
+);
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/bootstrap";
