@@ -54,7 +54,7 @@ import { footerLinks } from '../data/data';
 h2{
     color: white;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     max-width: fit-content;
@@ -62,13 +62,13 @@ h2{
 li{
     color: #909090;
     text-transform: capitalize;
-    font-size: 8px;
+    font-size: 12px;
 }
 ul, .col{
     max-width: fit-content;
 }
 .logo-bg{
-    max-width: 400px;
+    max-width: 450px;
     position: absolute;
     right: 0;
     top: -50%;

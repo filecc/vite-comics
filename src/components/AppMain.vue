@@ -1,7 +1,7 @@
 <template>
-    <main>
+    <main class="grow-1">
         <div class="container">
-            <p>Content goes here</p>
+            <p class="text-center">Content goes here</p>
         </div>
     </main>
 </template>
@@ -17,7 +17,7 @@ export default {
 
 main {
     // to remove
-    min-height: 10rem;
+    min-height: 20rem;
     width: 100%;
     background-color: black;
     color: white;

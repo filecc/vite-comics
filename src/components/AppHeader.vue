@@ -1,9 +1,9 @@
 <template>
-    <header class="row justify-content-between align-items-center h-100 gx-0 container mx-auto">
+    <header class="row justify-content-between align-items-center gx-0 container mx-auto">
         <div class="col-2 p-2">
             <img class="img-fluid" src="public/img/dc-logo.png" alt="">
         </div>
-        <div class="col-10 p-2 d-flex justify-content-end h-100">
+        <div class="col-10 p-2 d-flex justify-content-end">
             <ul class="d-flex justify-content-center gap-3 list-unstyled flex-wrap m-0 p-0 h-100">
                 <li :id="link.id" @click="$event => handleLinkClick($event)" :class="{active: link.active}" class="text-uppercase" v-for="link in links" :key="link.id">
                     {{ link.text }}
@@ -50,10 +50,14 @@ export default {
         margin: 0 auto;
     }
     li{
-        font-size: 10px;
+        font-size: 14px;
+        transition: all .3s linear;
         
         &:hover{
             cursor: pointer;
+            color: $fg-primary;
+        }
+        &.active{
             color: $fg-primary;
         }
     }

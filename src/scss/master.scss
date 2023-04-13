@@ -26,3 +26,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrap/scss/bootstrap";
 
 /* BOOTSTRAP IMPORT */
+
+#app{
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+}
