@@ -2,12 +2,12 @@ const headerLinks = [
         {
             "id": "1",
             "text": "characters",
-            active: true
+            active: false
         },
         {
             "id": "2",
             "text": "comics",
-            active: false
+            active: true
         },
         {
             "id": "3",

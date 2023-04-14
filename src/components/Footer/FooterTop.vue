@@ -1,7 +1,7 @@
 <template>
      <div class="bg-primary">
         <div class="container py-4">
-           <div class="row justify-content-center gap-2">
+           <div class="row justify-content-center gap-2 flex-column flex-md-row">
             <div v-for="image in images" class="col d-flex justify-content-center align-items-center gap-1" :key="image.id">
                 <div class="p-1">
                     <img class="img-fluid" :src="'/img/'+image.src" :alt="image.alt">
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { footerImg } from '../data/data';
+import { footerImg } from '../../data/data';
     export default {
         data() {
             return {
@@ -25,9 +25,9 @@ import { footerImg } from '../data/data';
 </script>
 
 <style lang="scss" scoped>
-    @use '../scss/variables' as *;
+    @use '../../scss/variables' as *;
     p{
-        font-family: 'Oswald', sans-serif;
+        font-family: $oswald;
         font-weight: 200;
         color: white;
         font-size: 12px;

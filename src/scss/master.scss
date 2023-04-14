@@ -35,6 +35,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 main{
   flex-grow: 1;
-  display: grid;
-  place-items: center;
+  background-color: $fg-body;
 }

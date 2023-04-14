@@ -10,7 +10,7 @@ import FooterTop from './FooterTop.vue';
 </template>
 
 <script>
-import { footerImg } from '../data/data';
+import { footerImg } from '../../data/data';
 import FooterTop from './FooterTop.vue';
 import FooterMiddle from './FooterMiddle.vue'
 import FooterBottom from './FooterBottom.vue';
@@ -29,7 +29,6 @@ import FooterBottom from './FooterBottom.vue';
 </script>
 
 <style lang="scss" scoped>
-    @use '../scss/variables' as *;
     
 
 </style>

@@ -1,8 +1,8 @@
 <template>
     <div class="bg-fg-footer">
-        <div class="container py-4 d-flex justify-content-between align-items-center">
+        <div class="container py-4 d-flex flex-column  flex-sm-row justify-content-between align-items-center ">
             <div>
-                <button>SIGN-UP NOW!</button>
+                <button class="mb-3 mb-sm-0">SIGN-UP NOW!</button>
             </div>
             <div class="d-flex align-items-center gap-3">
                 <h3 class="text-primary m-0">FOLLOW US</h3>
@@ -26,7 +26,7 @@
 </script>
 
 <style lang="scss" scoped>
-@use '../scss/variables' as *;
+@use '../../scss/variables' as *;
 button{
     border: 1px solid $fg-primary;
     background-color: transparent;
@@ -39,7 +39,7 @@ button{
     }
 }
 h3{
-    font-family: 'Oswald', sans-serif;
+    font-family: $oswald;
     font-weight: 400;
     font-size: 12px;
 }
