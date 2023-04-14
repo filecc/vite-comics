@@ -12,7 +12,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="d-block d-md-hidden col-10 d-flex justify-content-end align-items-center h-100">
+            <div class="d-block d-md-none col-10 d-flex justify-content-end align-items-center h-100">
                 <div @click="()=> open = !open" class="hm-container">
                     <div class="hamburger">
                         <div :class="{on: open}" class="hm-line one"></div>
@@ -96,6 +96,10 @@ li {
         left: 0;
         bottom: 0;
     }
+}
+
+@media screen and (max-width: 500px ) {
+    
 }
 
 /* HAMBURGER */
