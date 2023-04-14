@@ -4,7 +4,7 @@
             <div class="col-2 p-2">
                 <img class="img-fluid" src="/img/dc-logo.png" alt="">
             </div>
-            <div class="d-none d-md-block col-10 d-flex justify-content-end h-100">
+            <div :class="{on: open}" class="d-md-block col-10 d-flex justify-content-end h-100 div-ul">
                 <ul class="d-flex justify-content-center gap-3 list-unstyled m-0 p-0 h-100">
                     <li :id="link.id" @click="event => handleLinkClick(event)" :class="{ active: link.active }"
                         class="text-uppercase position-relative" v-for="link in links" :key="link.id">
@@ -98,8 +98,33 @@ li {
     }
 }
 
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 768px ) {
+    .div-ul{
+        position: fixed;
+        width: 100%;
+        top: 70px;
+        left: 0;
+        justify-content: center !important;
+        background-color: white;
+        z-index: 2;
+        height: 0 !important;
+        overflow: hidden;
+        transition: all .3s linear;
+    }
+    .div-ul.on{
+        height: fit-content !important;
+        padding-bottom: 2rem;
+    }
     
+    ul{
+        
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    li{
+        width: fit-content;
+    }
 }
 
 /* HAMBURGER */
