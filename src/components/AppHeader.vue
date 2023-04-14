@@ -1,7 +1,7 @@
 <template>
     <header class="row justify-content-between align-items-center gx-0 container mx-auto">
         <div class="col-2 p-2">
-            <img class="img-fluid" src="public/img/dc-logo.png" alt="">
+            <img class="img-fluid" src="/img/dc-logo.png" alt="">
         </div>
         <div class="col-10 p-2 d-flex justify-content-end">
             <ul class="d-flex justify-content-center gap-3 list-unstyled flex-wrap m-0 p-0 h-100">

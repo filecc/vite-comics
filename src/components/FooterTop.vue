@@ -4,7 +4,7 @@
            <div class="row justify-content-center gap-2">
             <div v-for="image in images" class="col d-flex justify-content-center align-items-center gap-1" :key="image.id">
                 <div class="p-1">
-                    <img class="img-fluid" :src="'public/img/'+image.src" :alt="image.alt">
+                    <img class="img-fluid" :src="'/img/'+image.src" :alt="image.alt">
                 </div>
                 <p class="m-0">{{ image.description }}</p>
             </div>
