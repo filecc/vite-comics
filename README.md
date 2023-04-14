@@ -1,35 +1,45 @@
-# vite-dc-comics
 
-This template should help get you started developing with Vue 3 in Vite.
+# Boolean Academy - Vite DC Comics project
 
-## Recommended IDE Setup
+Live Site availale at https://vite-comics-eight.vercel.app/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Table of contents
 
-## Customize configuration
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Overview
 
-```sh
-npm install
-```
+### The challenge
 
-### Compile and Hot-Reload for Development
+Users should be able to:
 
-```sh
-npm run dev
-```
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-### Compile and Minify for Production
+## Screenshot
+- The aspected layout
 
-```sh
-npm run build
-```
+![Screenshot](/public/img/dc-comics.png)
 
-### Lint with [ESLint](https://eslint.org/)
+## My process
 
-```sh
-npm run lint
-```
+### Built with
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- Bootstrap 5
+- Vue 3
+
+## Author
+
+- Website - [filecc](https://www.filecc.dev)
+- Instagram - [Instagram](https://www.instagram.com/filecc)
+- Frontend Mentor - [@filecc](https://www.frontendmentor.io/profile/filecc)
+- Twitter - [@_filecc](https://www.twitter.com/_filecc)
