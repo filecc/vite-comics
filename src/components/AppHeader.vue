@@ -112,8 +112,9 @@ li {
         transition: all .3s linear;
     }
     .div-ul.on{
-        height: fit-content !important;
+        height: auto !important;
         padding-bottom: 2rem;
+       
     }
     
     ul{
