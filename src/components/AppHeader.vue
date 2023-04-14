@@ -100,7 +100,7 @@ li {
 
 @media screen and (max-width: 768px ) {
     .div-ul{
-        position: fixed;
+        position: absolute;
         width: 100%;
         top: 70px;
         left: 0;
